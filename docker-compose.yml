@@ -1,0 +1,12 @@
+services:
+  youtube-mcp:
+    build: .
+    container_name: youtube-mcp-claude
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - ./cookies.txt:/app/cookies.txt
+    environment:
+      - PORT=3010
+      - HOST=0.0.0.0
+      - DEFAULT_LANG=th

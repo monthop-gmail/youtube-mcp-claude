@@ -1,0 +1,23 @@
+{
+  "name": "youtube-mcp-claude",
+  "version": "1.0.0",
+  "description": "MCP Server for YouTube to Text Converter - แปลง YouTube video เป็นข้อความ",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/server-sse.js",
+    "start:stdio": "node src/index.js",
+    "dev": "node --watch src/server-sse.js",
+    "dev:stdio": "node --watch src/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "youtube",
+    "transcript",
+    "subtitle",
+    "text-converter"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}

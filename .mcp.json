@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "youtube": {
+      "url": "http://localhost:3010/sse"
+    }
+  }
+}
