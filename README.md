@@ -199,3 +199,4 @@ npm run start:stdio  # Stdio mode
 | chat-mcp-claude    | 3001 | Chat history search            |
 | thudong-mcp-claude | 3002 | Thudong data                   |
 | **youtube-mcp-claude** | **3010** | **YouTube transcript**    |
+| audio-mcp-claude   | 3011 | Audio Speech-to-Text           |
