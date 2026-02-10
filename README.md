@@ -200,3 +200,4 @@ npm run start:stdio  # Stdio mode
 | thudong-mcp-claude | 3002 | Thudong data                   |
 | **youtube-mcp-claude** | **3010** | **YouTube transcript**    |
 | audio-mcp-claude   | 3011 | Audio Speech-to-Text           |
+| vdo-mcp-claude     | 3012 | Video-to-Text                  |
